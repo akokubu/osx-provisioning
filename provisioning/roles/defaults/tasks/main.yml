@@ -1,9 +1,9 @@
-- name: 
+- name:
   osx_defaults: >
     domain={{ item.domain }}
     key={{ item.key }}
     type={{ item.type }}
     value={{ item.value }}
     state=present
-  with_items: mac_defaults_settings
+  with_items: "{{ mac_defaults_settings }}"
   when: mac_defaults_settings

@@ -10,7 +10,7 @@
 - name: install applications
   shell: >
     mas install {{item.store_hash}}
-  with_items: mas_applications
+  with_items: "{{ mas_applications }}"
   when: mas_applications
   run_once: true
 
