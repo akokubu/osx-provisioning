@@ -1,47 +1,47 @@
 homebrew_repositories: []
 
 homebrew_packages:
-  - ag
-  - autojump
-  - macvim
-  - node
+  #- ag
+  #- autojump
+  #- macvim
+  #- node
   - peco
   - tig
-  - tmux
+  #- tmux
   - tree
   - vim
   - zsh
   - zsh-completions
   - zsh-syntax-highlighting
-  - go
-  - mas
+  #- go
+  #- mas
 
 homebrew_cask_packages:
-  - 1password
-  - alfred
-  - bettertouchtool
-  - caffeine
-  - dash
+  #- 1password
+  #- alfred
+  #- bettertouchtool
+  #- caffeine
+  #- dash
   - dropbox
-  - gas-mask
+  #- gas-mask
   - google-chrome
   - google-japanese-ime
-  - intellij-idea
+  #- intellij-idea
   - iterm2
   - karabiner
-  - kindle
-  - music-manager
-  - sequel-pro
-  - skitch
-  - skype
-  - slack
-  - vagrant
-  - virtualbox
+  #- kindle
+  #- music-manager
+  #- sequel-pro
+  #- skitch
+  #- skype
+  #- slack
+  #- vagrant
+  #- virtualbox
 
-mas_applications:
-  - {name: 'Slack', store_hash: 803453959}
-  - {name: 'CCMenu', store_hash: 603117688}
-  - {name: 'Apple Configurator 2', store_hash: 1037126344}
+#mas_applications:
+  #- {name: 'Slack', store_hash: 803453959}
+  #- {name: 'CCMenu', store_hash: 603117688}
+  #- {name: 'Apple Configurator 2', store_hash: 1037126344}
 
     
 # vim:ft=ansible:

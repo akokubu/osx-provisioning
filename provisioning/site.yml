@@ -5,12 +5,12 @@
   roles:
     # App Installations
     - brew
-    - defaults
-    - mas
-    - brew-cask
+    #- defaults
+    #- mas
+    #- brew-cask
 
     # Configurations
-    - git
-    - vim
-    - xcode
-    - zsh
+    #- git
+    #- vim
+    #- xcode
+    #- zsh
